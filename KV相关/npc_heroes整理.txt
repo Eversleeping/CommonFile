@@ -1,0 +1,2687 @@
+// --------------------------------
+// 对npc_heros文件进行了精简处理
+// 删除大部分对作图帮助不大的kv值
+// --------------------------------
+
+"DOTAHeroes"
+{
+	"Version"	"1"	
+
+	//========================================================================================
+	// HERO: Antimage
+	//========================================================================================
+	"npc_dota_hero_antimage"
+	{																		
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/antimage/antimage.mdl"			
+		"SoundSet"					"Hero_Antimage"							
+
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"antimage_mana_break"					
+		"Ability2"					"antimage_blink"						
+		"Ability3"					"antimage_spell_shield"					
+		"Ability4"					"antimage_mana_void"					
+
+		"ParticleFile"				"particles/units/heroes/hero_antimage.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_antimage.txt"
+		"VoiceFile" 				"scripts/voscripts/game_sounds_vo_antimage.txt"
+	}	
+
+	//========================================================================================
+	// HERO: Axe
+	//========================================================================================
+	"npc_dota_hero_axe"
+	{
+		// General
+		//------------------------------------------------------------------------------------	
+		"Model"					"models/heroes/axe/axe.mdl"				
+		"SoundSet"				"Hero_Axe"							
+	
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"axe_berserkers_call"						
+		"Ability2"				"axe_battle_hunger"							
+		"Ability3"				"axe_counter_helix"							
+		"Ability4"				"axe_culling_blade"							
+
+		"ParticleFile"				"particles/units/heroes/hero_axe.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_axe.txt"
+		"VoiceFile" 				"scripts/voscripts/game_sounds_vo_axe.txt"		
+	}	
+
+	//========================================================================================
+	// HERO: Bane
+	//========================================================================================
+	"npc_dota_hero_bane"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/bane/bane.mdl"			
+		"SoundSet"					"Hero_Bane"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"bane_enfeeble"							
+		"Ability2"					"bane_brain_sap"						
+		"Ability3"					"bane_nightmare"						
+		"Ability4"					"bane_fiends_grip"						
+		"Ability5"					"attribute_bonus"
+		"Ability6"					"bane_nightmare_end"
+
+		"ProjectileModel"			"bane_projectile"
+		"ParticleFile"				"particles/units/heroes/hero_bane.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_bane.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_bane.txt"
+	}
+
+	//========================================================================================
+	// HERO: Bloodseeker
+	//========================================================================================
+	"npc_dota_hero_bloodseeker"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/blood_seeker/blood_seeker.mdl"			
+		"SoundSet"					"Hero_Bloodseeker"								
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"bloodseeker_bloodrage"					
+		"Ability2"					"bloodseeker_blood_bath"				
+		"Ability3"					"bloodseeker_thirst"					
+		"Ability4"					"bloodseeker_rupture"					
+
+		"ParticleFile"				"particles/units/heroes/hero_bloodseeker.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_bloodseeker.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_bloodseeker.txt"
+	}
+
+
+	//========================================================================================
+	// HERO: Crystal Maiden
+	//========================================================================================
+	"npc_dota_hero_crystal_maiden"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/crystal_maiden/crystal_maiden.mdl"	
+		"SoundSet"					"hero_Crystal"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"crystal_maiden_crystal_nova"						
+		"Ability2"				"crystal_maiden_frostbite"					
+		"Ability3"				"crystal_maiden_brilliance_aura"					
+		"Ability4"				"crystal_maiden_freezing_field"						
+
+ 		"ProjectileModel"		"maiden_base_attack"
+		"VoiceFile"				"scripts/voscripts/game_sounds_vo_crystalmaiden.txt"
+		"ParticleFile"			"particles/units/heroes/hero_crystalmaiden.pcf"	
+		"GameSoundsFile"		"scripts/game_sounds_heroes/game_sounds_crystalmaiden.txt"
+	}	
+
+	//========================================================================================
+	// HERO: Drow Ranger
+	//========================================================================================
+	"npc_dota_hero_drow_ranger"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/drow/drow.mdl"			
+		"SoundSet"					"Hero_DrowRanger"						
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"drow_ranger_frost_arrows"				
+		"Ability2"					"drow_ranger_wave_of_silence"					
+		"Ability3"					"drow_ranger_trueshot"					
+		"Ability4"					"drow_ranger_marksmanship"				
+
+		"ProjectileModel"			"drow_base_attack"
+		"ParticleFile"				"particles/units/heroes/hero_drow.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_drowranger.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_drowranger.txt"
+	}	
+
+
+	//========================================================================================
+	// HERO: Earthshaker
+	//========================================================================================
+	"npc_dota_hero_earthshaker"
+	{
+		// General
+		//------------------------------------------------------------------------------------	
+		"Model"					"models/heroes/earthshaker/earthshaker.mdl"				
+		"SoundSet"				"Hero_Earthshaker"							
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"earthshaker_fissure"						
+		"Ability2"				"earthshaker_enchant_totem"					
+		"Ability3"				"earthshaker_aftershock"					
+		"Ability4"				"earthshaker_echo_slam"						
+
+		"ParticleFile"				"particles/units/heroes/hero_earthshaker.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_earthshaker.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_earthshaker.txt"
+	}	
+
+
+	//========================================================================================
+	// HERO: Juggernaut
+	//========================================================================================
+	"npc_dota_hero_juggernaut"
+	{
+		// General
+		//------------------------------------------------------------------------------------	
+		"Model"					"models/heroes/juggernaut/juggernaut.mdl"				
+		"SoundSet"				"Hero_Juggernaut"							
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"juggernaut_blade_fury"						
+		"Ability2"				"juggernaut_healing_ward"					
+		"Ability3"				"juggernaut_blade_dance"					
+		"Ability4"				"juggernaut_omni_slash"						
+
+		"ParticleFile"				"particles/units/heroes/hero_juggernaut.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_juggernaut.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_juggernaut.txt"
+	}	
+
+	//========================================================================================
+	// HERO: Mirana
+	//========================================================================================
+	"npc_dota_hero_mirana"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"					"models/heroes/mirana/mirana.mdl"			
+		"SoundSet"				"Hero_Mirana"									
+
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"mirana_starfall"							
+		"Ability2"				"mirana_arrow"								
+		"Ability3"				"mirana_leap"								
+		"Ability4"				"mirana_invis"								
+
+		"ProjectileModel"			"mirana_base_attack"
+		"ParticleFile"				"particles/units/heroes/hero_mirana.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_mirana.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_mirana.txt"
+	}
+	
+	//========================================================================================
+	// HERO: Nevermore
+	//========================================================================================
+	"npc_dota_hero_nevermore"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/shadow_fiend/shadow_fiend.mdl"			
+		"SoundSet"					"Hero_Nevermore"						
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"AbilityLayout"				"6"
+		"Ability1"					"nevermore_shadowraze1"					
+		"Ability2"					"nevermore_shadowraze2"					
+		"Ability3"					"nevermore_shadowraze3"					
+		"Ability4"					"nevermore_necromastery"				
+		"Ability5"					"nevermore_dark_lord"					
+		"Ability6"					"nevermore_requiem"						
+		"Ability7"					"attribute_bonus"						
+
+		"ProjectileModel"			"nevermore_base_attack"
+		"ParticleFile"				"particles/units/heroes/hero_nevermore.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_nevermore.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_nevermore.txt"
+	}
+	
+	//========================================================================================
+	// HERO: Morphling
+	//========================================================================================
+	"npc_dota_hero_morphling"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/morphling/morphling.mdl"		
+		"SoundSet"					"Hero_Morphling"							
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"AbilityLayout"				"5"
+		"Ability1"					"morphling_waveform"					
+		"Ability2"					"morphling_adaptive_strike"				
+		"Ability3"					"morphling_morph_agi"					
+		"Ability4"					"morphling_morph_str"					
+		"Ability5"					"morphling_hybrid"				 
+		"Ability6"					"morphling_replicate"					
+		"Ability7"					"morphling_morph"					
+		"Ability8"					"morphling_morph_replicate"				
+		"Ability9"					"attribute_bonus"					
+	
+		"ProjectileModel"			"morphling_base_attack"		
+		"ParticleFile"				"particles/units/heroes/hero_morphling.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_morphling.txt"
+		"VoiceFile" 				"scripts/voscripts/game_sounds_vo_morphling.txt" 
+	}
+
+	//========================================================================================
+	// HERO: Phantom Lancer
+	//========================================================================================
+	"npc_dota_hero_phantom_lancer"
+	{
+		// General
+		//------------------------------------------------------------------------------------	
+		"Model"					"models/heroes/phantom_lancer/phantom_lancer.mdl"				
+		"SoundSet"				"Hero_PhantomLancer"							
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"phantom_lancer_spirit_lance"				
+		"Ability2"				"phantom_lancer_doppelwalk"					
+		"Ability3"				"phantom_lancer_phantom_edge"					
+		"Ability4"				"phantom_lancer_juxtapose"				
+
+		"ParticleFile"				"particles/units/heroes/hero_phantom_lancer.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_phantom_lancer.txt"
+		"VoiceFile" 				"scripts/voscripts/game_sounds_vo_phantom_lancer.txt"
+	}	
+
+	//========================================================================================
+	// HERO: Puck
+	//========================================================================================
+	"npc_dota_hero_puck"												
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"					"models/heroes/puck/puck.mdl"			
+		"SoundSet"				"Hero_Puck"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"AbilityLayout"			"5"
+		"Ability1"				"puck_illusory_orb"							
+		"Ability2"				"puck_waning_rift"							
+		"Ability3"				"puck_phase_shift"							
+		"Ability4"				"puck_ethereal_jaunt"						
+		"Ability5"				"puck_dream_coil"							
+		"Ability6"				"attribute_bonus"							
+
+		"ProjectileModel"			"puck_base_attack"
+		"ParticleFile"				"particles/units/heroes/hero_puck.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_puck.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_puck.txt"
+	}
+
+	//========================================================================================
+	// HERO: Pudge
+	//========================================================================================
+	"npc_dota_hero_pudge"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"					"models/heroes/pudge/pudge.mdl"						
+		"SoundSet"				"Hero_Pudge"								
+
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"pudge_meat_hook"							
+		"Ability2"				"pudge_rot"									
+		"Ability3"				"pudge_flesh_heap"							
+		"Ability4"				"pudge_dismember"							
+
+		"ParticleFile"				"particles/units/heroes/hero_pudge.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_pudge.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_pudge.txt"
+	}	
+	
+	//========================================================================================
+	// HERO: Razor
+	//========================================================================================
+	"npc_dota_hero_razor"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"					"models/heroes/razor/razor.mdl"			
+		"SoundSet"				"Hero_Razor"
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"razor_plasma_field"							
+		"Ability2"				"razor_static_link"								
+		"Ability3"				"razor_unstable_current"						
+		"Ability4"				"razor_eye_of_the_storm"						
+
+		"ProjectileModel"			"razor_base_attack"
+		"ParticleFile"				"particles/units/heroes/hero_razor.pcf,particles/units/heroes/hero_razor_reduced_flash.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_razor.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_razor.txt"
+	}
+	
+
+	//========================================================================================
+	// HERO: Sand King
+	//========================================================================================
+	"npc_dota_hero_sand_king"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/sand_king/sand_king.mdl"	
+		"SoundSet"					"Hero_SandKing"							
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"sandking_burrowstrike"					
+		"Ability2"					"sandking_sand_storm"					
+		"Ability3"					"sandking_caustic_finale"				
+		"Ability4"					"sandking_epicenter"					
+
+		"ParticleFile"				"particles/units/heroes/hero_sandking.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_sandking.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_sandking.txt"
+	}
+	
+	//========================================================================================
+	// HERO: Storm Spirit
+	//========================================================================================
+	"npc_dota_hero_storm_spirit"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/storm_spirit/storm_spirit.mdl"			
+		"SoundSet"					"Hero_StormSpirit"								
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"storm_spirit_static_remnant"					
+		"Ability2"					"storm_spirit_electric_vortex"					
+		"Ability3"					"storm_spirit_overload"							
+		"Ability4"					"storm_spirit_ball_lightning"					
+
+		"ProjectileModel"			"stormspirit_base_attack"
+		"ParticleFile"				"particles/units/heroes/hero_stormspirit.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_stormspirit.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_stormspirit.txt"
+	}	
+	
+
+	//========================================================================================
+	// HERO: Sven
+	//========================================================================================
+	"npc_dota_hero_sven"
+	{
+		// General
+		//------------------------------------------------------------------------------------	
+		"Model"					"models/heroes/sven/sven.mdl"				
+		"SoundSet"				"Hero_Sven"							
+
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"sven_storm_bolt"						
+		"Ability2"				"sven_great_cleave"						
+		"Ability3"				"sven_warcry"							
+		"Ability4"				"sven_gods_strength"					
+
+		"ParticleFile"				"particles/units/heroes/hero_sven.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_sven.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_sven.txt"
+	}	
+
+	//========================================================================================
+	// HERO: Tiny
+	//========================================================================================
+	"npc_dota_hero_tiny"
+	{
+		// General
+		//------------------------------------------------------------------------------------	
+		"Model"					"models/heroes/tiny_01/tiny_01.mdl"				
+		"SoundSet"				"Hero_Tiny"							
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"tiny_avalanche"						
+		"Ability2"				"tiny_toss"								
+		"Ability3"				"tiny_craggy_exterior"					
+		"Ability4"				"tiny_grow"								
+
+		// Precache
+		//------------------------------------------------------------------------------------
+		"precache"
+		{
+			"model"			"models/heroes/tiny_02/tiny_02.mdl"
+			"model"			"models/heroes/tiny_03/tiny_03.mdl"
+			"model"			"models/heroes/tiny_04/tiny_04.mdl"
+			"model"			"models/heroes/tiny_01/tiny_01_tree.mdl"
+		}
+
+		"ParticleFile"				"particles/units/heroes/hero_tiny.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_tiny.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_tiny.txt"
+	}	
+	
+	//========================================================================================
+	// HERO: Vengeful Spirit
+	//========================================================================================
+	"npc_dota_hero_vengefulspirit"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"					"models/heroes/vengeful/vengeful.mdl"		
+		"SoundSet"				"Hero_VengefulSpirit"						
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"vengefulspirit_magic_missile"				
+		"Ability2"				"vengefulspirit_wave_of_terror"				
+		"Ability3"				"vengefulspirit_command_aura"				
+		"Ability4"				"vengefulspirit_nether_swap"				
+
+		"ProjectileModel"			"vengeful_base_attack"
+		"ParticleFile"				"particles/units/heroes/hero_vengeful.pcf"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_vengefulspirit.txt"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_vengefulspirit.txt"
+	}
+
+	//========================================================================================
+	// HERO: Windrunner
+	//========================================================================================
+	"npc_dota_hero_windrunner"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"					"models/heroes/windrunner/windrunner.mdl"				
+		"SoundSet"				"Hero_Windrunner"							
+
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"windrunner_shackleshot"					
+		"Ability2"				"windrunner_powershot"						
+		"Ability3"				"windrunner_windrun"						
+		"Ability4"				"windrunner_focusfire"						
+
+		"ProjectileModel"			"windrunner_base_attack"
+		"ParticleFile"				"particles/units/heroes/hero_windrunner.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_windrunner.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_windrunner.txt"
+	}
+	
+	//========================================================================================
+	// HERO: Zeus
+	//========================================================================================
+	"npc_dota_hero_zuus"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/zuus/zuus.mdl"			
+		"SoundSet"					"Hero_zuus"						
+
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"zuus_arc_lightning"					
+		"Ability2"					"zuus_lightning_bolt"					
+		"Ability3"					"zuus_static_field"						
+		"Ability4"					"zuus_thundergods_wrath"				
+
+		"ProjectileModel"			"zuus_base_attack"
+		"ParticleFile"				"particles/units/heroes/hero_zuus.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_zuus.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_zuus.txt"
+	}		
+	
+	//========================================================================================
+	// HERO: Kunkka
+	//========================================================================================
+	"npc_dota_hero_kunkka"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/kunkka/kunkka.mdl"			
+		"SoundSet"					"Hero_Kunkka"						
+
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"kunkka_torrent"						
+		"Ability2"					"kunkka_tidebringer"					
+		"Ability3"					"kunkka_x_marks_the_spot"				
+		"Ability4"					"kunkka_ghostship"						
+		"Ability6"					"kunkka_return"							
+		
+		"ParticleFile"				"particles/units/heroes/hero_kunkka.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_kunkka.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_kunkka.txt"
+	}	
+
+	//========================================================================================
+	// HERO: Lina
+	//========================================================================================
+	"npc_dota_hero_lina"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"			"models/heroes/lina/lina.mdl"	
+		"SoundSet"		"Hero_Lina"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"lina_dragon_slave"						
+		"Ability2"				"lina_light_strike_array"					
+		"Ability3"				"lina_fiery_soul"					
+		"Ability4"				"lina_laguna_blade"						
+
+		"ProjectileModel"		"lina_base_attack" 
+		"VoiceFile"				"scripts/voscripts/game_sounds_vo_lina.txt"
+		"ParticleFile"			"particles/units/heroes/hero_lina.pcf"
+		"GameSoundsFile"		"scripts/game_sounds_heroes/game_sounds_lina.txt"
+	}	
+
+	//========================================================================================
+	// HERO: Lich
+	//========================================================================================
+	"npc_dota_hero_lich"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"			"models/heroes/lich/lich.mdl"	
+		"SoundSet"		"Hero_Lich"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"lich_frost_nova"					
+		"Ability2"				"lich_frost_armor"					
+		"Ability3"				"lich_dark_ritual"					
+		"Ability4"				"lich_chain_frost"					
+
+		"ProjectileModel"		"lich_base_attack"
+		"VoiceFile"				"scripts/voscripts/game_sounds_vo_lich.txt"
+		"ParticleFile"			"particles/units/heroes/hero_lich.pcf"
+		"GameSoundsFile"		"scripts/game_sounds_heroes/game_sounds_lich.txt"
+	}	
+
+	//========================================================================================
+	// HERO: Lion
+	//========================================================================================
+	"npc_dota_hero_lion"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"			"models/heroes/lion/lion.mdl"	
+		"SoundSet"		"Hero_Lion"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"lion_impale"				
+		"Ability2"				"lion_voodoo"				
+		"Ability3"				"lion_mana_drain"			
+		"Ability4"				"lion_finger_of_death"		
+
+		"ProjectileModel"		"lion_base_attack"
+		"VoiceFile"				"scripts/voscripts/game_sounds_vo_lion.txt"
+		"ParticleFile"			"particles/units/heroes/hero_lion.pcf"
+		"GameSoundsFile"		"scripts/game_sounds_heroes/game_sounds_lion.txt"
+	}
+	
+	//========================================================================================
+	// HERO: Shadow Shaman
+	//========================================================================================
+	"npc_dota_hero_shadow_shaman"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"			"models/heroes/shadowshaman/shadowshaman.mdl"	
+		"SoundSet"		"Hero_ShadowShaman"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"shadow_shaman_ether_shock"			
+		"Ability2"				"shadow_shaman_voodoo"				
+		"Ability3"				"shadow_shaman_shackles"			
+		"Ability4"				"shadow_shaman_mass_serpent_ward"	
+
+
+		"ProjectileModel"		"shadowshaman_base_attack"				
+		"VoiceFile"				"scripts/voscripts/game_sounds_vo_shadowshaman.txt"
+		"ParticleFile"			"particles/units/heroes/hero_shadowshaman.pcf"
+		"GameSoundsFile"		"scripts/game_sounds_heroes/game_sounds_shadowshaman.txt"
+	}
+
+	//========================================================================================
+	// HERO: Slardar
+	//========================================================================================
+	"npc_dota_hero_slardar"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"					"models/heroes/slardar/slardar.mdl"					
+		"SoundSet"				"Hero_Slardar"								
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"slardar_sprint"							
+		"Ability2"				"slardar_slithereen_crush"					
+		"Ability3"				"slardar_bash"								
+		"Ability4"				"slardar_amplify_damage"					
+
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_slardar.txt"
+		"ParticleFile"				"particles/units/heroes/hero_slardar.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_slardar.txt"
+	}	
+	
+	//========================================================================================
+	// HERO: Tidehunter
+	//========================================================================================
+	"npc_dota_hero_tidehunter"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/tidehunter/tidehunter.mdl"			
+		"SoundSet"					"Hero_Tidehunter"						
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"tidehunter_gush"						
+		"Ability2"					"tidehunter_kraken_shell"				
+		"Ability3"					"tidehunter_anchor_smash"				
+		"Ability4"					"tidehunter_ravage"						
+
+		"ParticleFile"				"particles/units/heroes/hero_tidehunter.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_tidehunter.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_tidehunter.txt"
+	}	
+
+	//========================================================================================
+	// HERO: Witch Doctor
+	//========================================================================================
+	"npc_dota_hero_witch_doctor"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/witchdoctor/witchdoctor.mdl"			
+		"SoundSet"					"Hero_WitchDoctor"						
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"witch_doctor_paralyzing_cask"			
+		"Ability2"					"witch_doctor_voodoo_restoration"		
+		"Ability3"					"witch_doctor_maledict"					
+		"Ability4"					"witch_doctor_death_ward"				
+
+
+		"ProjectileModel"			"witchdoctor_base_attack"				
+		"ParticleFile"				"particles/units/heroes/hero_witchdoctor.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_witchdoctor.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_witchdoctor.txt"
+	}
+
+	//========================================================================================
+	// HERO: Riki
+	//========================================================================================
+	"npc_dota_hero_riki"
+	{
+		// General
+		//------------------------------------------------------------------------------------	
+		"Model"					"models/heroes/rikimaru/rikimaru.mdl"				
+		"SoundSet"				"Hero_Riki"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"riki_smoke_screen"						
+		"Ability2"				"riki_permanent_invisibility"						
+		"Ability3"				"riki_backstab"							
+		"Ability4"				"riki_blink_strike"			
+
+		"ParticleFile"				"particles/units/heroes/hero_riki.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_riki.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_riki.txt"
+	}	
+
+	//========================================================================================
+	// HERO: Enigma
+	//========================================================================================
+	"npc_dota_hero_enigma"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/enigma/enigma.mdl"		
+		"SoundSet"					"Hero_Enigma"								
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"enigma_malefice"				
+		"Ability2"					"enigma_demonic_conversion"		
+		"Ability3"					"enigma_midnight_pulse"			
+		"Ability4"					"enigma_black_hole"				
+
+		"ProjectileModel"			"enigma_base_attack"				
+		"ParticleFile"				"particles/units/heroes/hero_enigma.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_enigma.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_enigma.txt"
+	}
+
+	//========================================================================================
+	// HERO: Tinker
+	//========================================================================================
+	"npc_dota_hero_tinker"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/tinker/tinker.mdl"		
+		"SoundSet"					"Hero_Tinker"								
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"tinker_laser"					
+		"Ability2"					"tinker_heat_seeking_missile"	
+		"Ability3"					"tinker_march_of_the_machines"	
+		"Ability4"					"tinker_rearm"					
+
+		"ProjectileModel"			"tinker_base_attack"							
+		"ParticleFile"				"particles/units/heroes/hero_tinker.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_tinker.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_tinker.txt"
+	}
+
+	//========================================================================================
+	// HERO: Sniper
+	//========================================================================================
+	"npc_dota_hero_sniper"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/sniper/sniper.mdl"		
+		"SoundSet"					"Hero_Sniper"								
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"sniper_shrapnel"					
+		"Ability2"					"sniper_headshot"					
+		"Ability3"					"sniper_take_aim"					
+		"Ability4"					"sniper_assassinate"				
+
+		"ProjectileModel"			"sniper_base_attack"						
+		"ParticleFile"				"particles/units/heroes/hero_sniper.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_sniper.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_sniper.txt"
+	}
+	
+	//========================================================================================
+	// HERO: Necrolyte
+	//========================================================================================
+	"npc_dota_hero_necrolyte"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/necrolyte/necrolyte.mdl"		
+		"SoundSet"					"Hero_Necrolyte"				
+
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"necrolyte_death_pulse"					
+		"Ability2"					"necrolyte_heartstopper_aura"				
+		"Ability3"					"necrolyte_sadist"					
+		"Ability4"					"necrolyte_reapers_scythe"				
+
+		"ProjectileModel"			"necrolyte_base_attack"							
+		"ParticleFile"				"particles/units/heroes/hero_necrolyte.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_necrolyte.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_necrolyte.txt"
+	}
+
+	//========================================================================================
+	// HERO: Warlock
+	//========================================================================================
+	"npc_dota_hero_warlock"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/warlock/warlock.mdl"		
+		"SoundSet"					"Hero_Warlock"								
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"warlock_fatal_bonds"					
+		"Ability2"					"warlock_shadow_word"					
+		"Ability3"					"warlock_upheaval"						
+		"Ability4"					"warlock_rain_of_chaos"					
+
+		"ProjectileModel"			"warlock_base_attack"							
+		"ParticleFile"				"particles/units/heroes/hero_warlock.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_warlock.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_warlock.txt"
+	}
+
+	//========================================================================================
+	// HERO: Beastmaster
+	//========================================================================================
+	"npc_dota_hero_beastmaster"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/beastmaster/beastmaster.mdl"		
+		"SoundSet"					"Hero_Beastmaster"								
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"AbilityLayout"				"5"
+		"Ability1"					"beastmaster_wild_axes"					
+		"Ability2"					"beastmaster_call_of_the_wild"			
+		"Ability3"					"beastmaster_call_of_the_wild_boar"			
+		"Ability4"					"beastmaster_inner_beast"				
+		"Ability5"					"beastmaster_primal_roar"				
+		"Ability6"					"attribute_bonus"						 
+
+		"ParticleFile"				"particles/units/heroes/hero_beastmaster.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_beastmaster.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_beastmaster.txt"
+	}
+	
+	//========================================================================================
+	// HERO: Queen of Pain
+	//========================================================================================
+	"npc_dota_hero_queenofpain"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/queenofpain/queenofpain.mdl"		
+		"SoundSet"					"Hero_QueenOfPain"								
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"queenofpain_shadow_strike"					
+		"Ability2"					"queenofpain_blink"	
+		"Ability3"					"queenofpain_scream_of_pain"	
+		"Ability4"					"queenofpain_sonic_wave"					
+
+		"ProjectileModel"			"queen_base_attack"					
+		"ParticleFile"				"particles/units/heroes/hero_queenofpain.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_queenofpain.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_queenofpain.txt"
+	}
+	
+	//========================================================================================
+	// HERO: Venomancer
+	//========================================================================================
+	"npc_dota_hero_venomancer"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/venomancer/venomancer.mdl"		
+		"SoundSet"					"Hero_Venomancer"								
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"venomancer_venomous_gale"					
+		"Ability2"					"venomancer_poison_sting"					
+		"Ability3"					"venomancer_plague_ward"					
+		"Ability4"					"venomancer_poison_nova"					
+
+		"ProjectileModel"			"venomancer_base_attack"				
+		"ParticleFile"				"particles/units/heroes/hero_venomancer.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_venomancer.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_venomancer.txt"
+	}
+
+	//========================================================================================
+	// HERO: Faceless Void
+	//========================================================================================
+	"npc_dota_hero_faceless_void"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/faceless_void/faceless_void.mdl"		
+		"SoundSet"					"Hero_FacelessVoid"								
+		"Enabled"					"1"
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"faceless_void_time_walk"					
+		"Ability2"					"faceless_void_backtrack"					
+		"Ability3"					"faceless_void_time_lock"					
+		"Ability4"					"faceless_void_chronosphere"				
+
+		"ParticleFile"				"particles/units/heroes/hero_faceless_void.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_faceless_void.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_faceless_void.txt"
+	}
+	
+	//========================================================================================
+	// HERO: Skeleton King or Wraith King
+	//========================================================================================
+	"npc_dota_hero_skeleton_king"
+	{
+		// General
+		//------------------------------------------------------------------------------------	
+		"Model"					"models/heroes/wraith_king/wraith_king.mdl"				
+		"SoundSet"				"Hero_SkeletonKing"							
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"skeleton_king_hellfire_blast"						
+		"Ability2"				"skeleton_king_vampiric_aura"						
+		"Ability3"				"skeleton_king_mortal_strike"							
+		"Ability4"				"skeleton_king_reincarnation"					
+
+		"ParticleFile"				"particles/units/heroes/hero_skeletonking.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_skeletonking.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_skeleton_king.txt"
+	}	
+
+	//========================================================================================
+	// HERO: Death Prophet
+	//========================================================================================
+	"npc_dota_hero_death_prophet"
+	{
+		// General
+		//------------------------------------------------------------------------------------	
+		"Model"					"models/heroes/death_prophet/death_prophet.mdl"		
+		"SoundSet"				"Hero_DeathProphet"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"death_prophet_carrion_swarm"				
+		"Ability2"				"death_prophet_silence"						
+		"Ability3"				"death_prophet_witchcraft"					
+		"Ability4"				"death_prophet_exorcism"					
+
+		"ProjectileModel"			"death_prophet_base_attack"				
+		"ParticleFile"				"particles/units/heroes/hero_death_prophet.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_death_prophet.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_death_prophet.txt"
+	}	
+	
+	//========================================================================================
+	// HERO: Phantom Assassin
+	//========================================================================================
+	"npc_dota_hero_phantom_assassin"
+	{
+		// General
+		//------------------------------------------------------------------------------------	
+		"Model"					"models/heroes/phantom_assassin/phantom_assassin.mdl"		
+		"SoundSet"				"Hero_PhantomAssassin"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"phantom_assassin_stifling_dagger"				
+		"Ability2"				"phantom_assassin_phantom_strike"						
+		"Ability3"				"phantom_assassin_blur"					
+		"Ability4"				"phantom_assassin_coup_de_grace"					
+
+		"ParticleFile"				"particles/units/heroes/hero_phantom_assassin.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_phantom_assassin.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_phantom_assassin.txt"
+	}
+	
+	//========================================================================================
+	// HERO: Pugna
+	//========================================================================================
+	"npc_dota_hero_pugna"
+	{
+		// General
+		//------------------------------------------------------------------------------------	
+		"Model"					"models/heroes/pugna/pugna.mdl"		
+		"SoundSet"				"Hero_Pugna"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"pugna_nether_blast"				
+		"Ability2"				"pugna_decrepify"					
+		"Ability3"				"pugna_nether_ward"					
+		"Ability4"				"pugna_life_drain"					
+
+		"ProjectileModel"			"pugna_base_attack"						
+		"ParticleFile"				"particles/units/heroes/hero_pugna.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_pugna.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_pugna.txt"
+	}	
+
+	//========================================================================================
+	// HERO: Templar Assassin
+	//========================================================================================
+	"npc_dota_hero_templar_assassin"
+	{
+		// General
+		//------------------------------------------------------------------------------------	
+		"Model"					"models/heroes/lanaya/lanaya.mdl"				
+		"SoundSet"				"Hero_TemplarAssassin"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"AbilityLayout"			"5"
+		"Ability1"				"templar_assassin_refraction"				
+		"Ability2"				"templar_assassin_meld"						
+		"Ability3"				"templar_assassin_psi_blades"				
+		"Ability4"				"templar_assassin_trap"						
+		"Ability5"				"templar_assassin_psionic_trap"				
+		"Ability6"				"attribute_bonus"					
+
+		"ProjectileModel"			"templar_assassin_base_attack"			
+		"ParticleFile"				"particles/units/heroes/hero_templar_assassin.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_templar_assassin.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_templar_assassin.txt"
+	}	
+
+	//========================================================================================
+	// HERO: Viper
+	//========================================================================================
+	"npc_dota_hero_viper"
+	{
+		// General
+		//------------------------------------------------------------------------------------	
+		"Model"					"models/heroes/viper/viper.mdl"		
+		"SoundSet"				"Hero_Viper"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"viper_poison_attack"					
+		"Ability2"				"viper_nethertoxin"						
+		"Ability3"				"viper_corrosive_skin"					
+		"Ability4"				"viper_viper_strike"					
+
+		"ProjectileModel"			"viper_base_attack"						
+		"ParticleFile"				"particles/units/heroes/hero_viper.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_viper.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_viper.txt"
+	}	
+
+	//========================================================================================
+	// HERO: Luna
+	//========================================================================================
+	"npc_dota_hero_luna"
+	{
+		// General
+		//------------------------------------------------------------------------------------	
+		"Model"					"models/heroes/luna/luna.mdl"		
+		"SoundSet"				"Hero_Luna"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"luna_lucent_beam"					
+		"Ability2"				"luna_moon_glaive"					
+		"Ability3"				"luna_lunar_blessing"				
+		"Ability4"				"luna_eclipse"						
+	
+		"ProjectileModel"			"luna_base_attack"					
+		"ParticleFile"				"particles/units/heroes/hero_luna.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_luna.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_luna.txt"
+	}	
+
+	//========================================================================================
+	// HERO: Dragon Knight
+	//========================================================================================
+	"npc_dota_hero_dragon_knight"
+	{
+		// General
+		//------------------------------------------------------------------------------------	
+		"Model"					"models/heroes/dragon_knight/dragon_knight.mdl"		
+		"SoundSet"				"Hero_DragonKnight"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"dragon_knight_breathe_fire"				
+		"Ability2"				"dragon_knight_dragon_tail"					
+		"Ability3"				"dragon_knight_dragon_blood"				
+		"Ability4"				"dragon_knight_elder_dragon_form"			
+	
+		"ParticleFile"				"particles/units/heroes/hero_dragon_knight.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_dragon_knight.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_dragon_knight.txt"
+	}	
+	
+	//========================================================================================
+	// HERO: Dazzle
+	//========================================================================================
+	"npc_dota_hero_dazzle"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"			"models/heroes/dazzle/dazzle.mdl"	
+		"SoundSet"		"Hero_Dazzle"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"dazzle_poison_touch"				
+		"Ability2"				"dazzle_shallow_grave"				
+		"Ability3"				"dazzle_shadow_wave"				
+		"Ability4"				"dazzle_weave"						
+
+		"ProjectileModel"		"dazzle_base_attack"						
+		"ParticleFile"			"particles/units/heroes/hero_dazzle.pcf"
+		"GameSoundsFile"		"scripts/game_sounds_heroes/game_sounds_dazzle.txt"
+		"VoiceFile"				"scripts/voscripts/game_sounds_vo_dazzle.txt"
+	}
+	
+	//========================================================================================
+	// HERO: Rattletrap
+	//========================================================================================
+	"npc_dota_hero_rattletrap"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"			"models/heroes/rattletrap/rattletrap.mdl"			
+		"SoundSet"		"Hero_Rattletrap"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"rattletrap_battery_assault"		
+		"Ability2"				"rattletrap_power_cogs"				
+		"Ability3"				"rattletrap_rocket_flare"			
+		"Ability4"				"rattletrap_hookshot"				
+
+		"VoiceFile"				"scripts/voscripts/game_sounds_vo_rattletrap.txt"
+		"ParticleFile"			"particles/units/heroes/hero_rattletrap.pcf"
+		"GameSoundsFile"		"scripts/game_sounds_heroes/game_sounds_rattletrap.txt"
+	}
+
+	//========================================================================================
+	// HERO: Leshrac
+	//========================================================================================
+	"npc_dota_hero_leshrac"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"			"models/heroes/leshrac/leshrac.mdl"	
+		"SoundSet"		"Hero_Leshrac"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"leshrac_split_earth"				
+		"Ability2"				"leshrac_diabolic_edict"			
+		"Ability3"				"leshrac_lightning_storm"			
+		"Ability4"				"leshrac_pulse_nova"				
+
+		"ProjectileModel"		"leshrac_base_attack"						
+		"VoiceFile"				"scripts/voscripts/game_sounds_vo_leshrac.txt"
+		"ParticleFile"			"particles/units/heroes/hero_leshrac.pcf"
+		"GameSoundsFile"		"scripts/game_sounds_heroes/game_sounds_leshrac.txt"
+	}
+	
+	//========================================================================================
+	// HERO: Furion
+	//========================================================================================
+	"npc_dota_hero_furion"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"				"models/heroes/furion/furion.mdl"				
+		"SoundSet"			"Hero_Furion"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"furion_sprout"				
+		"Ability2"				"furion_teleportation"		
+		"Ability3"				"furion_force_of_nature"	
+		"Ability4"				"furion_wrath_of_nature"	
+
+		"ProjectileModel"		"furion_base_attack"					
+		"VoiceFile"				"scripts/voscripts/game_sounds_vo_furion.txt"
+		"ParticleFile"			"particles/units/heroes/hero_furion.pcf"
+		"GameSoundsFile"		"scripts/game_sounds_heroes/game_sounds_furion.txt"
+	}
+	
+	//========================================================================================
+	// HERO: Lifestealer
+	//========================================================================================
+	"npc_dota_hero_life_stealer"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"			"models/heroes/life_stealer/life_stealer.mdl"	
+		"SoundSet"		"Hero_LifeStealer"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"life_stealer_rage"				
+		"Ability2"				"life_stealer_feast"			
+		"Ability3"				"life_stealer_open_wounds"		
+		"Ability4"				"life_stealer_assimilate"		
+		"Ability5"				"life_stealer_assimilate_eject"	
+		"Ability6"				"life_stealer_infest"			
+		"Ability7"				"life_stealer_control"			
+		"Ability8"				"life_stealer_consume"			
+		"Ability9"				"attribute_bonus"				 
+
+		"ProjectileModel"		"leshrac_base_attack"						
+		"VoiceFile"				"scripts/voscripts/game_sounds_vo_life_stealer.txt"
+		"ParticleFile"			"particles/units/heroes/hero_life_stealer.pcf"
+		"GameSoundsFile"		"scripts/game_sounds_heroes/game_sounds_life_stealer.txt"
+	}
+	
+	//========================================================================================
+	// HERO: Dark Seer
+	//========================================================================================
+	"npc_dota_hero_dark_seer"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"			"models/heroes/dark_seer/dark_seer.mdl"	
+		"SoundSet"		"Hero_DarkSeer"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"dark_seer_vacuum"
+		"Ability2"				"dark_seer_ion_shell"
+		"Ability3"				"dark_seer_surge"
+		"Ability4"				"dark_seer_wall_of_replica"
+
+		"ParticleFile"			"particles/units/heroes/hero_dark_seer.pcf"
+		"GameSoundsFile"		"scripts/game_sounds_heroes/game_sounds_dark_seer.txt"
+		"VoiceFile"				"scripts/voscripts/game_sounds_vo_dark_seer.txt"
+	}
+
+	//========================================================================================
+	// HERO: Clinkz
+	//========================================================================================
+	"npc_dota_hero_clinkz"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"			"models/heroes/clinkz/clinkz.mdl"	
+		"SoundSet"		"Hero_Clinkz"									
+
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"clinkz_strafe"
+		"Ability2"				"clinkz_searing_arrows"
+		"Ability3"				"clinkz_wind_walk"
+		"Ability4"				"clinkz_death_pact"
+
+		"ProjectileModel"		"clinkz_base_attack"					
+		"VoiceFile"				"scripts/voscripts/game_sounds_vo_clinkz.txt"
+		"ParticleFile"			"particles/units/heroes/hero_clinkz.pcf"
+		"GameSoundsFile"		"scripts/game_sounds_heroes/game_sounds_clinkz.txt"
+	}
+
+	//========================================================================================
+	// HERO: Omniknight
+	//========================================================================================
+	"npc_dota_hero_omniknight"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"			"models/heroes/omniknight/omniknight.mdl"	
+		"SoundSet"		"Hero_Omniknight"									
+
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"omniknight_purification"
+		"Ability2"				"omniknight_repel"
+		"Ability3"				"omniknight_degen_aura"
+		"Ability4"				"omniknight_guardian_angel"
+
+		"VoiceFile"				"scripts/voscripts/game_sounds_vo_omniknight.txt"
+		"ParticleFile"			"particles/units/heroes/hero_omniknight.pcf"
+		"GameSoundsFile"		"scripts/game_sounds_heroes/game_sounds_omniknight.txt"
+	}
+
+	
+	//========================================================================================
+	// HERO: Enchantress
+	//========================================================================================
+	"npc_dota_hero_enchantress"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"			"models/heroes/enchantress/enchantress.mdl"		
+		"SoundSet"		"Hero_Enchantress"								
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"enchantress_untouchable"
+		"Ability2"				"enchantress_enchant"
+		"Ability3"				"enchantress_natures_attendants"
+		"Ability4"				"enchantress_impetus"
+
+		"ProjectileModel"		"enchantress_base_attack"					
+		"VoiceFile"				"scripts/voscripts/game_sounds_vo_enchantress.txt"
+		"ParticleFile"			"particles/units/heroes/hero_enchantress.pcf"
+		"GameSoundsFile"		"scripts/game_sounds_heroes/game_sounds_enchantress.txt"
+	}
+	
+	//========================================================================================
+	// HERO: Huskar
+	//========================================================================================
+	"npc_dota_hero_huskar"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"			"models/heroes/huskar/huskar.mdl"		
+		"SoundSet"		"Hero_Huskar"								
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"huskar_inner_vitality"
+		"Ability2"				"huskar_burning_spear"
+		"Ability3"				"huskar_berserkers_blood"
+		"Ability4"				"huskar_life_break"
+
+		"ProjectileModel"		"huskar_base_attack"					
+		"VoiceFile"				"scripts/voscripts/game_sounds_vo_huskar.txt"
+		"ParticleFile"			"particles/units/heroes/hero_huskar.pcf"
+		"GameSoundsFile"		"scripts/game_sounds_heroes/game_sounds_huskar.txt"
+	}
+	
+	//========================================================================================
+	// HERO: Night Stalker
+	//========================================================================================
+	"npc_dota_hero_night_stalker"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"				"models/heroes/nightstalker/nightstalker.mdl"	
+		"SoundSet"			"Hero_NightStalker"								
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"night_stalker_void"
+		"Ability2"				"night_stalker_crippling_fear"
+		"Ability3"				"night_stalker_hunter_in_the_night"
+		"Ability4"				"night_stalker_darkness"
+
+		"VoiceFile"				"scripts/voscripts/game_sounds_vo_night_stalker.txt"
+		"ParticleFile"			"particles/units/heroes/hero_night_stalker.pcf"
+		"GameSoundsFile"		"scripts/game_sounds_heroes/game_sounds_nightstalker.txt"
+	}
+
+	//========================================================================================
+	// HERO: Broodmother
+	//========================================================================================
+	"npc_dota_hero_broodmother"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"				"models/heroes/broodmother/broodmother.mdl"	
+		"SoundSet"			"Hero_Broodmother"								
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"broodmother_spawn_spiderlings"
+		"Ability2"				"broodmother_spin_web"
+		"Ability3"				"broodmother_incapacitating_bite"
+		"Ability4"				"broodmother_insatiable_hunger"
+
+		"VoiceFile"				"scripts/voscripts/game_sounds_vo_broodmother.txt"
+		"ParticleFile"			"particles/units/heroes/hero_broodmother.pcf"
+		"GameSoundsFile"		"scripts/game_sounds_heroes/game_sounds_broodmother.txt"
+	}
+
+	//========================================================================================
+	// HERO: Bounty Hunter
+	//========================================================================================
+	"npc_dota_hero_bounty_hunter"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"				"models/heroes/bounty_hunter/bounty_hunter.mdl"	
+		"SoundSet"			"Hero_BountyHunter"								
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"bounty_hunter_shuriken_toss"
+		"Ability2"				"bounty_hunter_jinada"
+		"Ability3"				"bounty_hunter_wind_walk"
+		"Ability4"				"bounty_hunter_track"
+
+		"VoiceFile"				"scripts/voscripts/game_sounds_vo_bounty_hunter.txt"
+		"ParticleFile"			"particles/units/heroes/hero_bounty_hunter.pcf"
+		"GameSoundsFile"		"scripts/game_sounds_heroes/game_sounds_bounty_hunter.txt"
+	}
+
+	//========================================================================================
+	// HERO: Weaver
+	//========================================================================================
+	"npc_dota_hero_weaver"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/weaver/weaver.mdl"		
+		"SoundSet"					"Hero_Weaver"								
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"weaver_the_swarm"					
+		"Ability2"					"weaver_shukuchi"					
+		"Ability3"					"weaver_geminate_attack"					
+		"Ability4"					"weaver_time_lapse"					
+
+		"ProjectileModel"			"weaver_base_attack"				
+		"ParticleFile"				"particles/units/heroes/hero_weaver.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_weaver.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_weaver.txt"
+	}
+
+	//========================================================================================
+	// HERO: Jakiro
+	//========================================================================================
+	"npc_dota_hero_jakiro"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/twin_headed_dragon/twin_headed_dragon.mdl"		
+		"SoundSet"					"Hero_Jakiro"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"jakiro_dual_breath"				
+		"Ability2"					"jakiro_ice_path"					
+		"Ability3"					"jakiro_liquid_fire"				
+		"Ability4"					"jakiro_macropyre"					
+
+		"ProjectileModel"			"jakiro_base_attack"					
+		"ParticleFile"				"particles/units/heroes/hero_jakiro.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_jakiro.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_jakiro.txt"
+	}
+
+	//========================================================================================
+	// HERO: Batrider
+	//========================================================================================
+	"npc_dota_hero_batrider"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/batrider/batrider.mdl"		
+		"SoundSet"					"Hero_Batrider"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"batrider_sticky_napalm"			
+		"Ability2"					"batrider_flamebreak"				
+		"Ability3"					"batrider_firefly"					
+		"Ability4"					"batrider_flaming_lasso"			
+
+		"ProjectileModel"			"batrider_base_attack"					
+		"ParticleFile"				"particles/units/heroes/hero_batrider.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_batrider.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_batrider.txt"
+	}
+
+	//========================================================================================
+	// HERO: Chen
+	//========================================================================================
+	"npc_dota_hero_chen"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/chen/chen.mdl"		
+		"SoundSet"					"Hero_Chen"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"AbilityLayout"				"5"
+		"Ability1"					"chen_penitence"			
+		"Ability2"					"chen_test_of_faith"		
+		"Ability3"					"chen_test_of_faith_teleport"  
+		"Ability4"					"chen_holy_persuasion"		
+		"Ability5"					"chen_hand_of_god"			
+		"Ability6"					"attribute_bonus"			
+
+		"ProjectileModel"			"chen_base_attack"						
+		"ParticleFile"				"particles/units/heroes/hero_chen.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_chen.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_chen.txt"
+	}
+
+	//========================================================================================
+	// HERO: Spectre
+	//========================================================================================
+	"npc_dota_hero_spectre"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/spectre/spectre.mdl"		
+		"SoundSet"					"Hero_Spectre"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"AbilityLayout"				"5"
+		"Ability1"					"spectre_spectral_dagger"	
+		"Ability2"					"spectre_desolate"			
+		"Ability3"					"spectre_dispersion"		
+		"Ability4"					"spectre_reality"			
+		"Ability5"					"spectre_haunt"				
+		"Ability6"					"attribute_bonus"			
+
+		"ParticleFile"				"particles/units/heroes/hero_spectre.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_spectre.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_spectre.txt"
+	}
+
+	//========================================================================================
+	// HERO: Doom Bringer
+	//========================================================================================
+	"npc_dota_hero_doom_bringer"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/doom/doom.mdl"		
+		"SoundSet"					"Hero_DoomBringer"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"AbilityLayout"				"6"
+		"Ability1"					"doom_bringer_devour"			
+		"Ability2"					"doom_bringer_scorched_earth"	
+		"Ability3"					"doom_bringer_lvl_death"		
+		"Ability4"					"doom_bringer_empty1"			
+		"Ability5"					"doom_bringer_empty2"			
+		"Ability6"					"doom_bringer_doom"				
+		"Ability7"					"attribute_bonus"				
+
+		"ParticleFile"				"particles/units/heroes/hero_doom_bringer.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_doombringer.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_doom_bringer.txt"
+	}
+
+	//========================================================================================
+	// HERO: Ancient Apparition
+	//========================================================================================
+	"npc_dota_hero_ancient_apparition"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/ancient_apparition/ancient_apparition.mdl"		
+		"SoundSet"					"Hero_ancient_apparition"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"ancient_apparition_cold_feet"			
+		"Ability2"					"ancient_apparition_ice_vortex"			
+		"Ability3"					"ancient_apparition_chilling_touch"		
+		"Ability4"					"ancient_apparition_ice_blast"			
+		"Ability5"					"ancient_apparition_ice_blast_release"	
+		"Ability6"					"attribute_bonus"						
+
+		"ProjectileModel"			"ancient_apparition_base_attack"		
+		"ParticleFile"				"particles/units/heroes/hero_ancient_apparition.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_ancient_apparition.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_ancient_apparition.txt"
+	}
+
+	//========================================================================================
+	// HERO: Ursa
+	//========================================================================================
+	"npc_dota_hero_ursa"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/ursa/ursa.mdl"		
+		"SoundSet"					"Hero_Ursa"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"ursa_earthshock"				
+		"Ability2"					"ursa_overpower"				
+		"Ability3"					"ursa_fury_swipes"				
+		"Ability6"					"ursa_enrage"					
+		"Ability5"					"attribute_bonus"				
+
+		"ParticleFile"				"particles/units/heroes/hero_ursa.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_ursa.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_ursa.txt"
+	}
+
+	//========================================================================================
+	// HERO: Spirit Breaker
+	//========================================================================================
+	"npc_dota_hero_spirit_breaker"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/spirit_breaker/spirit_breaker.mdl"		
+		"SoundSet"					"Hero_spirit_breaker"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"spirit_breaker_charge_of_darkness"		
+		"Ability2"					"spirit_breaker_empowering_haste"		
+		"Ability3"					"spirit_breaker_greater_bash"			
+		"Ability4"					"spirit_breaker_nether_strike"			
+		"Ability5"					"attribute_bonus"						
+
+		"ParticleFile"				"particles/units/heroes/hero_spirit_breaker.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_spirit_breaker.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_spirit_breaker.txt"
+	}
+
+	//========================================================================================
+	// HERO: Gyrocopter
+	//========================================================================================
+	"npc_dota_hero_gyrocopter"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/gyro/gyro.mdl"		
+		"SoundSet"					"Hero_Gyrocopter"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"gyrocopter_rocket_barrage"				
+		"Ability2"					"gyrocopter_homing_missile"				
+		"Ability3"					"gyrocopter_flak_cannon"				
+		"Ability6"					"gyrocopter_call_down"					
+		"Ability5"					"attribute_bonus"				
+
+		"ProjectileModel"			"gyro_base_attack"							
+		"ParticleFile"				"particles/units/heroes/hero_gyrocopter.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_gyrocopter.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_gyrocopter.txt"
+	}
+
+	//========================================================================================
+	// HERO: Alchemist
+	//========================================================================================
+	"npc_dota_hero_alchemist"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/alchemist/alchemist.mdl"		
+		"SoundSet"					"Hero_Alchemist"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"alchemist_acid_spray"
+		"Ability2"					"alchemist_unstable_concoction"
+		"Ability3"					"alchemist_goblins_greed"
+		"Ability4"					"alchemist_chemical_rage"
+		"Ability5"					"attribute_bonus"
+		"Ability6"					"alchemist_unstable_concoction_throw"
+
+		"ParticleFile"				"particles/units/heroes/hero_alchemist.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_alchemist.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_alchemist.txt"
+	}
+
+	//========================================================================================
+	// HERO: Invoker
+	//========================================================================================
+	"npc_dota_hero_invoker"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/invoker/invoker.mdl"				
+		"SoundSet"					"Hero_Invoker"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"AbilityLayout"				"6"
+		"Ability1"					"invoker_quas"
+		"Ability2"					"invoker_wex"
+		"Ability3"					"invoker_exort"
+		"Ability4"					"invoker_empty1"
+		"Ability5"					"invoker_empty2"
+		"Ability6"					"invoker_invoke"
+		"Ability7"					"invoker_cold_snap"
+		"Ability8"					"invoker_ghost_walk"
+		"Ability9"					"invoker_tornado"
+		"Ability10"					"invoker_emp"
+		"Ability11"					"invoker_alacrity"
+		"Ability12"					"invoker_chaos_meteor"
+		"Ability13"					"invoker_sun_strike"
+		"Ability14"					"invoker_forge_spirit"
+		"Ability15"					"invoker_ice_wall"
+		"Ability16"					"invoker_deafening_blast"
+
+		"ProjectileModel"			"invoker_base_attack"					
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_invoker.txt"
+		"ParticleFile"				"particles/units/heroes/hero_invoker.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_invoker.txt"
+	}
+
+	//========================================================================================
+	// HERO: Silencer
+	//========================================================================================
+	"npc_dota_hero_silencer"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/silencer/silencer.mdl"		
+		"SoundSet"					"Hero_Silencer"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"silencer_curse_of_the_silent"
+		"Ability2"					"silencer_glaives_of_wisdom"
+		"Ability3"					"silencer_last_word"
+		"Ability4"					"silencer_global_silence"
+		"Ability5"					"attribute_bonus"
+
+		"ProjectileModel"			"silencer_base_attack"						
+		"ParticleFile"				"particles/units/heroes/hero_silencer.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_silencer.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_silencer.txt"
+	}
+
+	//========================================================================================
+	// HERO: Obsidian Destroyer
+	//========================================================================================
+	"npc_dota_hero_obsidian_destroyer"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/obsidian_destroyer/obsidian_destroyer.mdl"		
+		"SoundSet"					"Hero_ObsidianDestroyer"
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"obsidian_destroyer_arcane_orb"
+		"Ability2"					"obsidian_destroyer_astral_imprisonment"
+		"Ability3"					"obsidian_destroyer_essence_aura"
+		"Ability4"					"obsidian_destroyer_sanity_eclipse"
+		"Ability5"					"attribute_bonus"
+
+		"ProjectileModel"			"obsidian_destroyer_base_attack"						
+		"ParticleFile"				"particles/units/heroes/hero_obsidian_destroyer.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_obsidian_destroyer.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_outworld_destroyer.txt"
+	}
+
+	//========================================================================================
+	// HERO: Lycan
+	//========================================================================================
+	"npc_dota_hero_lycan"	
+	{
+		// Generalf
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/lycan/lycan.mdl"		
+		"SoundSet"					"Hero_Lycan"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"lycan_summon_wolves"
+		"Ability2"					"lycan_howl"
+		"Ability3"					"lycan_feral_impulse"
+		"Ability4"					"lycan_shapeshift"
+		"Ability5"					"attribute_bonus"
+
+		"ParticleFile"				"particles/units/heroes/hero_lycan.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_lycan.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_lycan.txt"
+	}
+
+	//========================================================================================
+	// HERO: Brewmaster
+	//========================================================================================
+	"npc_dota_hero_brewmaster"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/brewmaster/brewmaster.mdl"		
+		"SoundSet"					"Hero_Brewmaster"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"brewmaster_thunder_clap"
+		"Ability2"					"brewmaster_drunken_haze"
+		"Ability3"					"brewmaster_drunken_brawler"
+		"Ability4"					"brewmaster_primal_split"
+		"Ability5"					"attribute_bonus"
+
+		"ParticleFile"				"particles/units/heroes/hero_brewmaster.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_brewmaster.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_brewmaster.txt"
+	}
+	
+	//========================================================================================
+	// HERO: Shadow Demon
+	//========================================================================================
+	"npc_dota_hero_shadow_demon"
+	{
+		// General
+		//------------------------------------------------------------------------------------	
+		"Model"					"models/heroes/shadow_demon/shadow_demon.mdl"			
+		"SoundSet"				"Hero_ShadowDemon"										
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"AbilityLayout"			"5"
+		"Ability1"				"shadow_demon_disruption"				
+		"Ability2"				"shadow_demon_soul_catcher"				
+		"Ability3"				"shadow_demon_shadow_poison"			
+		"Ability4"				"shadow_demon_shadow_poison_release"	
+		"Ability5"				"shadow_demon_demonic_purge"			
+		"Ability6"				"attribute_bonus"						
+
+		"ProjectileModel"			"shadow_demon_base_attack"				
+		"ParticleFile"				"particles/units/heroes/hero_shadow_demon.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_shadow_demon.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_shadow_demon.txt"
+	}
+
+	//========================================================================================
+	// HERO: Lone Druid
+	//========================================================================================
+	"npc_dota_hero_lone_druid"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/lone_druid/lone_druid.mdl"		
+		"SoundSet"					"Hero_LoneDruid"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"AbilityLayout"				"5"
+		"Ability1"					"lone_druid_spirit_bear"
+		"Ability2"					"lone_druid_rabid"
+		"Ability3"					"lone_druid_synergy"
+		"Ability4"					"lone_druid_true_form_battle_cry"
+		"Ability5"					"lone_druid_true_form"
+		"Ability6"					"lone_druid_true_form_druid"
+		"Ability7"					"attribute_bonus"
+
+		"ProjectileModel"			"lone_druid_base_attack"				
+		"ParticleFile"				"particles/units/heroes/hero_lone_druid.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_lone_druid.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_lone_druid.txt"
+	}
+
+	//========================================================================================
+	// HERO: Chaos Knight
+	//========================================================================================
+	"npc_dota_hero_chaos_knight"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/chaos_knight/chaos_knight.mdl"		
+		"SoundSet"					"Hero_ChaosKnight"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"chaos_knight_chaos_bolt"
+		"Ability2"					"chaos_knight_reality_rift"
+		"Ability3"					"chaos_knight_chaos_strike"
+		"Ability4"					"chaos_knight_phantasm"
+		"Ability5"					"attribute_bonus"
+
+		"ParticleFile"				"particles/units/heroes/hero_chaos_knight.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_chaos_knight.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_chaos_knight.txt"
+	}
+
+	//========================================================================================
+	// HERO: Meepo
+	//========================================================================================
+	"npc_dota_hero_meepo"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/meepo/meepo.mdl"		
+		"SoundSet"					"Hero_Meepo"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"meepo_earthbind"
+		"Ability2"					"meepo_poof"
+		"Ability3"					"meepo_geostrike"
+		"Ability4"					"meepo_divided_we_stand"
+		"Ability5"					"attribute_bonus"
+	
+		"ParticleFile"				"particles/units/heroes/hero_meepo.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_meepo.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_meepo.txt"
+	}
+
+	//========================================================================================
+	// HERO: Treant Protector
+	//========================================================================================
+	"npc_dota_hero_treant"	
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/treant_protector/treant_protector.mdl"		
+		"SoundSet"					"Hero_Treant"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"treant_natures_guise"
+		"Ability2"					"treant_leech_seed"
+		"Ability3"					"treant_living_armor"
+		"Ability4"					"treant_eyes_in_the_forest"
+		"Ability5"					"treant_overgrowth"
+		"Ability6"					"attribute_bonus"
+
+		"ParticleFile"				"particles/units/heroes/hero_treant.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_treant.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_treant.txt"
+	}
+
+	//========================================================================================
+	// HERO: Ogre Magi
+	//========================================================================================
+	"npc_dota_hero_ogre_magi"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/ogre_magi/ogre_magi.mdl"		
+		"SoundSet"					"Hero_OgreMagi"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"ogre_magi_fireblast"
+		"Ability2"					"ogre_magi_ignite"
+		"Ability3"					"ogre_magi_bloodlust"
+		"Ability4"					"ogre_magi_unrefined_fireblast"
+		"Ability5"					"ogre_magi_multicast"
+		"Ability6"					"attribute_bonus"
+
+		"ParticleFile"				"particles/units/heroes/hero_ogre_magi.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_ogre_magi.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_ogre_magi.txt"
+	}
+
+	
+	//========================================================================================
+	// HERO: Undying
+	//========================================================================================
+	"npc_dota_hero_undying"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/undying/undying.mdl"		
+		"SoundSet"					"Hero_Undying"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"undying_decay"
+		"Ability2"					"undying_soul_rip"
+		"Ability3"					"undying_tombstone"
+		"Ability4"					"undying_flesh_golem"
+		"Ability5"					"attribute_bonus"
+
+		"ParticleFile"				"particles/units/heroes/hero_undying.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_undying.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_undying.txt"
+	}
+
+	//========================================================================================
+	// HERO: Rubick
+	//========================================================================================
+	"npc_dota_hero_rubick"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/rubick/rubick.mdl"		
+		"SoundSet"					"Hero_Rubick"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"AbilityLayout"				"6"
+		"Ability1"					"rubick_telekinesis"
+		"Ability2"					"rubick_telekinesis_land"
+		"Ability3"					"rubick_fade_bolt"
+		"Ability4"					"rubick_null_field"
+		"Ability5"					"rubick_empty1"
+		"Ability6"					"rubick_empty2"
+		"Ability7"					"rubick_spell_steal"
+		"Ability8"					"attribute_bonus"
+		"Ability9"					"rubick_hidden1"
+		"Ability10"					"rubick_hidden2"
+		"Ability11"					"rubick_hidden3"
+
+		"ProjectileModel"			"rubick_base_attack"					
+		"ParticleFile"				"particles/units/heroes/hero_rubick.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_rubick.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_rubick.txt"
+	}
+
+	//========================================================================================
+	// HERO: Disruptor
+	//========================================================================================
+	"npc_dota_hero_disruptor"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/disruptor/disruptor.mdl"		
+		"SoundSet"					"Hero_Disruptor"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"disruptor_thunder_strike"
+		"Ability2"					"disruptor_glimpse"
+		"Ability3"					"disruptor_kinetic_field"
+		"Ability4"					"disruptor_static_storm"
+		"Ability5"					"attribute_bonus"
+
+		"ProjectileModel"			"disruptor_base_attack"					
+		"ParticleFile"				"particles/units/heroes/hero_disruptor.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_disruptor.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_disruptor.txt"
+	}
+
+	//========================================================================================
+	// HERO: Nyx Assassin
+	//========================================================================================
+	"npc_dota_hero_nyx_assassin"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/nerubian_assassin/nerubian_assassin.mdl"		
+		"SoundSet"					"Hero_NyxAssassin"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"nyx_assassin_impale"
+		"Ability2"					"nyx_assassin_mana_burn"
+		"Ability3"					"nyx_assassin_spiked_carapace"
+		"Ability4"					"nyx_assassin_burrow"
+		"Ability5"					"nyx_assassin_unburrow"
+		"Ability6"					"nyx_assassin_vendetta"
+		"Ability7"					"attribute_bonus"
+
+		"ParticleFile"				"particles/units/heroes/hero_nyx_assassin.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_nyx_assassin.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_nyx_assassin.txt"
+	}
+
+	//========================================================================================
+	// HERO: Naga Siren
+	//========================================================================================
+	"npc_dota_hero_naga_siren"
+	{
+		// General
+		//------------------------------------------------------------------------------------	
+		"Model"					"models/heroes/siren/siren.mdl"			
+		"SoundSet"				"Hero_NagaSiren"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"naga_siren_mirror_image"				
+		"Ability2"				"naga_siren_ensnare"					
+		"Ability3"				"naga_siren_rip_tide"					
+		"Ability4"				"naga_siren_song_of_the_siren"			
+		"Ability5"				"naga_siren_song_of_the_siren_cancel"	
+		"Ability6"				"attribute_bonus"
+
+		"ParticleFile"				"particles/units/heroes/hero_siren.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_naga_siren.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_naga_siren.txt"
+	}
+
+	//========================================================================================
+	// HERO: Keeper of the Light
+	//========================================================================================
+	"npc_dota_hero_keeper_of_the_light"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/keeper_of_the_light/keeper_of_the_light.mdl"		
+		"SoundSet"					"Hero_KeeperOfTheLight"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"AbilityLayout"				"6"
+		"Ability1"					"keeper_of_the_light_illuminate"
+		"Ability2"					"keeper_of_the_light_mana_leak"
+		"Ability3"					"keeper_of_the_light_chakra_magic"
+		"Ability4"					"keeper_of_the_light_recall"
+		"Ability5"					"keeper_of_the_light_blinding_light"
+		"Ability6"					"keeper_of_the_light_spirit_form"
+		"Ability7"					"keeper_of_the_light_illuminate_end"
+		"Ability8"					"keeper_of_the_light_spirit_form_illuminate"
+		"Ability9"					"keeper_of_the_light_spirit_form_illuminate_end"
+		"Ability10"					"attribute_bonus"
+
+		"ProjectileModel"			"keeper_of_the_light_base_attack"		
+		"ParticleFile"				"particles/units/heroes/hero_keeper_of_the_light.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_keeper_of_the_light.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_keeper_of_the_light.txt"
+	}
+
+	//========================================================================================
+	// HERO: Wisp
+	//========================================================================================
+	"npc_dota_hero_wisp"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/wisp/wisp.mdl"		
+		"SoundSet"					"Hero_Wisp"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"AbilityLayout"				"6"
+		"Ability1"					"wisp_tether"
+		"Ability2"					"wisp_tether_break"							
+		"Ability3"					"wisp_spirits"
+		"Ability4"					"wisp_overcharge"
+		"Ability5"					"wisp_empty1"
+		"Ability6"					"wisp_empty2"
+		"Ability7"					"wisp_relocate"
+		"Ability8"					"attribute_bonus"
+		"Ability9"					"wisp_spirits_in"
+		"Ability10"					"wisp_spirits_out"
+
+
+		"ProjectileModel"			"wisp_base_attack"					
+		"ParticleFile"				"particles/units/heroes/hero_wisp.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_wisp.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_wisp.txt"
+	}
+
+	//========================================================================================
+	// HERO: Visage
+	//========================================================================================
+	"npc_dota_hero_visage"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/visage/visage.mdl"		
+		"SoundSet"					"Hero_Visage"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"visage_grave_chill"
+		"Ability2"					"visage_soul_assumption"
+		"Ability3"					"visage_gravekeepers_cloak"
+		"Ability4"					"visage_summon_familiars"
+		"Ability5"					"attribute_bonus"
+
+		"ProjectileModel"			"visage_base_attack"					
+		"ParticleFile"				"particles/units/heroes/hero_visage.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_visage.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_visage.txt"
+	}
+
+	
+	//========================================================================================
+	// HERO: Slark
+	//========================================================================================
+	"npc_dota_hero_slark"
+	{																		
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/slark/slark.mdl"			
+		"SoundSet"					"Hero_Slark"							
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"slark_dark_pact"						
+		"Ability2"					"slark_pounce"							
+		"Ability3"					"slark_essence_shift"					
+		"Ability4"					"slark_shadow_dance"					
+		"Ability5"					"attribute_bonus"
+
+		"ProjectileModel"			""										
+		"ParticleFile"				"particles/units/heroes/hero_slark.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_slark.txt"
+		"VoiceFile" 				"scripts/voscripts/game_sounds_vo_slark.txt"
+	}	
+
+	//========================================================================================
+	// HERO: Medusa
+	//========================================================================================
+	"npc_dota_hero_medusa"
+	{																		
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/medusa/medusa.mdl"			
+		"SoundSet"					"Hero_Medusa"							
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"medusa_split_shot"						
+		"Ability2"					"medusa_mystic_snake"							
+		"Ability3"					"medusa_mana_shield"					
+		"Ability4"					"medusa_stone_gaze"					
+		"Ability5"					"attribute_bonus"
+
+		"ProjectileModel"			"medusa_base_attack"				
+		"ParticleFile"				"particles/units/heroes/hero_medusa.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_medusa.txt"
+		"VoiceFile" 				"scripts/voscripts/game_sounds_vo_medusa.txt"
+	}
+
+	//========================================================================================
+	// HERO: Troll Warlord
+	//========================================================================================
+	"npc_dota_hero_troll_warlord"
+	{																		
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/troll_warlord/troll_warlord.mdl"			
+		"SoundSet"					"Hero_TrollWarlord"							
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"troll_warlord_berserkers_rage"						
+		"Ability2"					"troll_warlord_whirling_axes_ranged"							
+		"Ability3"					"troll_warlord_whirling_axes_melee"					
+		"Ability4"					"troll_warlord_fervor"					
+		"Ability5"					"troll_warlord_battle_trance"	
+		"Ability6"					"attribute_bonus"
+
+		"ProjectileModel"			"troll_warlord_base_attack"				
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_troll_warlord.txt"
+		"ParticleFile"				"particles/units/heroes/hero_troll_warlord.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_troll_warlord.txt"
+		"VoiceFile" 				"scripts/voscripts/game_sounds_vo_troll_warlord.txt"
+	}		
+
+	//========================================================================================
+	// HERO: Centaur Warchief
+	//========================================================================================
+	"npc_dota_hero_centaur"
+	{																		
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/centaur/centaur.mdl"			
+		"SoundSet"					"Hero_Centaur"							
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"centaur_hoof_stomp"						
+		"Ability2"					"centaur_double_edge"							
+		"Ability3"					"centaur_return"					
+		"Ability4"					"centaur_stampede"					
+		"Ability5"					"attribute_bonus"	
+
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_centaur.txt"
+		"ParticleFile"				"particles/units/heroes/hero_centaur.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_centaur.txt"
+		"VoiceFile" 				"scripts/voscripts/game_sounds_vo_centaur.txt"
+	}	
+	
+	//========================================================================================
+	// HERO: Magnus
+	//========================================================================================
+	"npc_dota_hero_magnataur"
+	{																		
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/magnataur/magnataur.mdl"			
+		"SoundSet"					"Hero_Magnataur"							
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"magnataur_shockwave"						
+		"Ability2"					"magnataur_empower"							
+		"Ability3"					"magnataur_skewer"					
+		"Ability4"					"magnataur_reverse_polarity"					
+		"Ability5"					"attribute_bonus"	
+
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_magnataur.txt"
+		"ParticleFile"				"particles/units/heroes/hero_magnataur.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_magnataur.txt"
+		"VoiceFile" 				"scripts/voscripts/game_sounds_vo_magnataur.txt"
+	}	
+
+	//========================================================================================
+	// HERO: Shredder Timbersaw
+	//========================================================================================
+	"npc_dota_hero_shredder"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/shredder/shredder.mdl"		
+		"SoundSet"					"Hero_Shredder"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"AbilityLayout"				"4"
+		"Ability1"					"shredder_whirling_death"
+		"Ability2"					"shredder_timber_chain"
+		"Ability3"					"shredder_reactive_armor"
+		"Ability4"					"shredder_chakram_2"
+		"Ability5"					"shredder_return_chakram_2"
+		"Ability6"					"shredder_chakram"
+		"Ability7"					"shredder_return_chakram"
+		"Ability8"					"attribute_bonus"
+
+		"ParticleFile"				"particles/units/heroes/hero_shredder.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_shredder.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_shredder.txt"
+	}
+
+	//========================================================================================
+	// HERO: Bristleback
+	//========================================================================================
+	"npc_dota_hero_bristleback"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/bristleback/bristleback.mdl"		
+		"SoundSet"					"Hero_Bristleback"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"bristleback_viscous_nasal_goo"
+		"Ability2"					"bristleback_quill_spray"
+		"Ability3"					"bristleback_bristleback"
+		"Ability4"					"bristleback_warpath"
+		"Ability5"					"attribute_bonus"
+
+		"ParticleFile"				"particles/units/heroes/hero_bristleback.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_bristleback.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_bristleback.txt"
+	}
+
+	//========================================================================================
+	// HERO: Tusk
+	//========================================================================================
+	"npc_dota_hero_tusk"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/tuskarr/tuskarr.mdl"		
+		"SoundSet"					"Hero_Tusk"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"AbilityLayout"				"5"
+		"Ability1"					"tusk_ice_shards"
+		"Ability2"					"tusk_snowball"
+		"Ability3"					"tusk_frozen_sigil"
+		"Ability4"					"tusk_launch_snowball"
+		"Ability5"					"tusk_walrus_kick"
+		"Ability6"					"tusk_walrus_punch"
+		"Ability7"					"attribute_bonus"
+	
+		"ParticleFile"				"particles/units/heroes/hero_tusk.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_tusk.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_tusk.txt"
+	}
+
+	//========================================================================================
+	// HERO: Skywrath Mage
+	//========================================================================================
+	"npc_dota_hero_skywrath_mage"
+	{
+		// General
+		//------------------------------------------------------------------------------------	
+		"Model"					"models/heroes/skywrath_mage/skywrath_mage.mdl"		
+		"SoundSet"				"Hero_SkywrathMage"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"				"skywrath_mage_arcane_bolt"				
+		"Ability2"				"skywrath_mage_concussive_shot"					
+		"Ability3"				"skywrath_mage_ancient_seal"					
+		"Ability4"				"skywrath_mage_mystic_flare"					
+
+		"ProjectileModel"			"skywrath_mage_base_attack"						
+		"ParticleFile"				"particles/units/heroes/hero_skywrath_mage.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_skywrath_mage.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_skywrath_mage.txt"
+	}	
+
+	//========================================================================================
+	// HERO: Abaddon
+	//========================================================================================
+	"npc_dota_hero_abaddon"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/abaddon/abaddon.mdl"								
+		"SoundSet"					"Hero_Abaddon"													
+
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"abaddon_death_coil"
+		"Ability2"					"abaddon_aphotic_shield"
+		"Ability3"					"abaddon_frostmourne"
+		"Ability4"					"abaddon_borrowed_time"
+		"Ability5"					"attribute_bonus"
+
+		"ParticleFile"				"particles/units/heroes/hero_abaddon.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_abaddon.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_abaddon.txt"
+	}
+
+	//========================================================================================
+	// HERO: Elder Titan
+	//========================================================================================
+	"npc_dota_hero_elder_titan"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/elder_titan/elder_titan.mdl"		
+		"SoundSet"					"Hero_ElderTitan"													
+			
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"elder_titan_echo_stomp"
+		"Ability2"					"elder_titan_ancestral_spirit"
+		"Ability3"					"elder_titan_natural_order"
+		"Ability4"					"elder_titan_return_spirit"
+		"Ability5"					"elder_titan_earth_splitter"
+		"Ability6"					"attribute_bonus"
+
+		"ParticleFile"				"particles/units/heroes/hero_elder_titan.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_elder_titan.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_elder_titan.txt"
+	}
+	
+	//========================================================================================
+	// HERO: Legion Commander
+	//========================================================================================
+	"npc_dota_hero_legion_commander"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/legion_commander/legion_commander.mdl"		
+		"SoundSet"					"Hero_LegionCommander"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"legion_commander_overwhelming_odds"
+		"Ability2"					"legion_commander_press_the_attack"
+		"Ability3"					"legion_commander_moment_of_courage"
+		"Ability4"					"legion_commander_duel"
+		"Ability5"					"attribute_bonus"
+
+		"ParticleFile"				"particles/units/heroes/hero_legion_commander.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_legion_commander.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_legion_commander.txt"
+	}
+
+	//========================================================================================
+	// HERO: Ember Spirit
+	//========================================================================================
+	"npc_dota_hero_ember_spirit"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/ember_spirit/ember_spirit.mdl"		
+		"SoundSet"					"Hero_EmberSpirit"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"ember_spirit_searing_chains"
+		"Ability2"					"ember_spirit_sleight_of_fist"
+		"Ability3"					"ember_spirit_flame_guard"
+		"Ability4"					"ember_spirit_activate_fire_remnant"
+		"Ability5"					"ember_spirit_fire_remnant"
+		"Ability6"					"attribute_bonus"
+		"AbilityLayout"				"5"
+
+		"ParticleFile"				"particles/units/heroes/hero_ember_spirit.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_ember_spirit.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_ember_spirit.txt"
+	}
+
+	//========================================================================================
+	// HERO: Earth Spirit
+	//========================================================================================
+	"npc_dota_hero_earth_spirit"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/earth_spirit/earth_spirit.mdl"		
+		"SoundSet"					"Hero_EarthSpirit"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"earth_spirit_boulder_smash"
+		"Ability2"					"earth_spirit_rolling_boulder"
+		"Ability3"					"earth_spirit_geomagnetic_grip"
+		"Ability4"					"earth_spirit_stone_caller"
+		"Ability5"					"earth_spirit_petrify"
+		"Ability6"					"earth_spirit_magnetize"
+		"Ability7"					"attribute_bonus"
+		"AbilityLayout"				"5"
+
+		"ParticleFile"				"particles/units/heroes/hero_earth_spirit.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_earth_spirit.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_earth_spirit.txt"
+	}
+
+	//========================================================================================
+	// HERO: Abyssal Underlord
+	//========================================================================================
+	"npc_dota_hero_abyssal_underlord"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/abyssal_underlord/abyssal_underlord.mdl"		
+		"SoundSet"					"Hero_AbyssalUnderlord"													
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"abyssal_underlord_firestorm"
+		"Ability2"					"abyssal_underlord_pit_of_malice"
+		"Ability3"					"abyssal_underlord_atrophy_aura"
+		"Ability4"					"abyssal_underlord_dark_rift"
+		"Ability5"					"abyssal_underlord_cancel_dark_rift"
+		"Ability6"					"attribute_bonus"
+		
+		"ParticleFile"				"particles/units/heroes/hero_abyssal_underlord.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_abyssal_underlord.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_abyssal_underlord.txt"
+	}
+
+	//========================================================================================
+	// HERO: Terrorblade
+	//========================================================================================
+	"npc_dota_hero_terrorblade"
+	{																		
+		// General
+		//------------------------------------------------------------------------------------
+		"Model"						"models/heroes/terrorblade/terrorblade.mdl"			
+		"SoundSet"					"Hero_Terrorblade"							
+
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"terrorblade_reflection"					
+		"Ability2"					"terrorblade_conjure_image"						
+		"Ability3"					"terrorblade_metamorphosis"					
+		"Ability4"					"terrorblade_sunder"					
+
+		"ProjectileModel"			""										
+		"ParticleFile"				"particles/units/heroes/hero_terrorblade.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_terrorblade.txt"
+		"VoiceFile" 				"scripts/voscripts/game_sounds_vo_terrorblade.txt"
+	}	
+
+	//========================================================================================
+	// HERO: Phoenix
+	//========================================================================================
+	"npc_dota_hero_phoenix"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"BaseClass"					"npc_dota_hero_phoenix"							
+		"Model"						"models/heroes/phoenix/phoenix_bird.mdl"				
+		"SoundSet"					"Hero_Phoenix"									
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"phoenix_icarus_dive"
+		"Ability2"					"phoenix_fire_spirits"
+		"Ability3"					"phoenix_sun_ray"
+		"Ability4"					"phoenix_sun_ray_toggle_move_empty"
+		"Ability5"					"phoenix_supernova"
+		"Ability6"					"phoenix_launch_fire_spirit"
+		"Ability7"					"phoenix_icarus_dive_stop"
+		"Ability8"					"phoenix_sun_ray_stop"
+		"Ability9"					"phoenix_sun_ray_toggle_move"
+		"Ability10"					"attribute_bonus"
+		"AbilityLayout"				"5"
+
+		"ProjectileModel"			"phoenix_base_attack"						
+		"ParticleFile"				"particles/units/heroes/hero_phoenix.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_phoenix.txt"
+		"VoiceFile" 				"scripts/voscripts/game_sounds_vo_phoenix.txt"
+	}
+
+	//========================================================================================
+	// HERO: Oracle
+	//========================================================================================
+	"npc_dota_hero_oracle"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"BaseClass"					"npc_dota_hero_oracle"							
+		"Model"						"models/heroes/oracle/oracle.mdl"				
+		"SoundSet"					"Hero_Oracle"
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"oracle_fortunes_end"
+		"Ability2"					"oracle_fates_edict"
+		"Ability3"					"oracle_purifying_flames"
+		"Ability4"					"oracle_false_promise"
+		"Ability5"					"attribute_bonus"
+
+		"ProjectileModel"			"oracle_base_attack"						
+		"ParticleFile"				"particles/units/heroes/hero_oracle.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_oracle.txt"
+		"VoiceFile" 				"scripts/voscripts/game_sounds_vo_oracle.txt"
+	}
+
+	//========================================================================================
+	// HERO: Techies
+	//========================================================================================
+	"npc_dota_hero_techies"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"BaseClass"					"npc_dota_hero_techies"							
+		"Model"						"models/heroes/techies/techies.mdl"						
+		"SoundSet"					"Hero_Techies"										
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"AbilityLayout"				"6"
+		"Ability1"					"techies_land_mines"									
+		"Ability2"					"techies_stasis_trap"									
+		"Ability3"					"techies_suicide"								
+		"Ability4"					"techies_focused_detonate"
+		"Ability5"					"techies_minefield_sign"								
+		"Ability6"					"techies_remote_mines"						
+		"Ability7"					"attribute_bonus"
+
+		"ProjectileModel"			"techies_base_attack"							
+		"ParticleFile"				"particles/units/heroes/hero_techies.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_techies.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_techies.txt"
+	}
+		
+	//========================================================================================
+	// HERO: Winter Wyvern
+	//========================================================================================
+	"npc_dota_hero_winter_wyvern"
+	{
+		// General
+		//------------------------------------------------------------------------------------
+		"BaseClass"					"npc_dota_hero_winter_wyvern"					
+		"Model"						"models/heroes/winterwyvern/winterwyvern.mdl"	
+		"SoundSet"					"Hero_Winter_Wyvern"										
+		
+		// Abilities
+		//------------------------------------------------------------------------------------
+		"Ability1"					"winter_wyvern_arctic_burn"									
+		"Ability2"					"winter_wyvern_splinter_blast"									
+		"Ability3"					"winter_wyvern_cold_embrace"								
+		"Ability4"					"winter_wyvern_winters_curse"
+		"Ability5"					"attribute_bonus"
+
+		"ProjectileModel"			"winter_wyvern_base_attack"				
+		"ParticleFile"				"particles/units/heroes/hero_winter_wyvern.pcf"
+		"GameSoundsFile"			"scripts/game_sounds_heroes/game_sounds_winter_wyvern.txt"
+		"VoiceFile"					"scripts/voscripts/game_sounds_vo_winter_wyvern.txt"
+	}	
+}
